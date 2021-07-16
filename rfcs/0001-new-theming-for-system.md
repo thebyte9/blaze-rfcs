@@ -15,7 +15,7 @@ The core motivations for adding theming support are
 
 In addition to these there are some potential Blaze admin changes coming up that aim to show the frontend representation of pages in the admin when creating them in page builder and allow different elements of the page to have their styles customised. This will mean that Blaze components maybe used in the following scenarios and we will need a theming/styling system that is able to enable these
 
-## Sceanrios
+## Scenarios
 ### General
 - components that require different sets of classes/styles e.g these components might require classes for
   - input
@@ -31,7 +31,7 @@ In addition to these there are some potential Blaze admin changes coming up that
     - chips
     - ...
 - different variations of a component e.g. accept/confirm buttons
-  - this might just be done by applying different classes
+  - this might be done by applying different classes
   - might not be a concept we need
 ### Admin 
 - admin standard use in byte9 plugin e.g. login form
